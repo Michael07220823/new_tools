@@ -3,7 +3,7 @@ import logging
 import cv2
 from numpy import ndarray
 
-IMAGE_FORMAT = (".jpg", "jpeg", ".png", ".bmp", ".tiff", ".pgm")
+IMAGE_FORMAT = (".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".pgm")
 
 def check_image(image):
     """
@@ -38,7 +38,7 @@ def check_image(image):
         
     elif type(image) == str:
         # Check image fromat.
-        if os.path.splitext(image)[1].lower() not in IMAGE_FORMAT:
+        if os.path.splitext(image)[-1].lower() not in IMAGE_FORMAT:
             logging.error("Image format error ! {} isn't image.".format(image))
             raise ValueError
         

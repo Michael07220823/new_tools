@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf8") as readme:
 
 setuptools.setup(
     name="new_tools",
-    version="0.0.2",
+    version="0.0.3",
     author="Overcomer",
     author_email="michael31703@gmail.com",
     description="Multiple tools",
