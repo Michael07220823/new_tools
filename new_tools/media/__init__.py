@@ -1,2 +1,2 @@
-from .image import check_image
-from .video import FPS
+from .image import check_image, IMAGE_FORMAT
+from .video import FPS, VIDEO_FORMAT

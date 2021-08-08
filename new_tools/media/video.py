@@ -1,6 +1,7 @@
 import time
 
-VIDEO_FORMAT = (".mp4", ".mov")
+VIDEO_FORMAT = (".mp4", ".m4v", ".mov", ".avi", ".wmv", ".flv", ".qt", ".asf", ".mpeg", ".mpg", ".vob", ".mkv",
+                ".rm", "rmvb", ".ts", ".dat")
 
 class FPS(object):
     def __init__(self):
