@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf8") as readme:
 
 setuptools.setup(
     name="new_tools",
-    version="0.0.4",
+    version="0.0.7",
     author="Overcomer",
     author_email="michael31703@gmail.com",
     description="Multiple tools",
@@ -15,7 +15,7 @@ setuptools.setup(
     keywords="tools",
     install_requires=[''],
     license="MIT License",
-    packages=setuptools.find_packages(include=["new_tools.*"]),
+    packages=setuptools.find_packages(include=["new_tools", "new_tools.*"]),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
