@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf8") as readme:
 
 setuptools.setup(
     name="new_tools",
-    version="0.0.5",
+    version="0.0.6",
     author="Overcomer",
     author_email="michael31703@gmail.com",
     description="Multiple tools",
@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Michael07220823/new_tools.git",
     keywords="tools",
-    install_requires=[''],
+    install_requires=["opencv-python", "numpy"],
     license="MIT License",
     packages=setuptools.find_packages(include=["new_tools", "new_tools.*"]),
     classifiers=[
